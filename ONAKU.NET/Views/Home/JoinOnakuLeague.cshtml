@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "ONAKU 리그 가입 신청";
+}
+<div class="bodyWrap">
+    <div class="bodyWrap-content">
+        <sapn class="header">@ViewData["Title"]</sapn>
+        @*<h3>@ViewData["Message"]</h3>*@
+         <form asp-action="CreateApplication" asp-controller="Home" method="post">
+            <article class="questionBox">                
+                <label for="nickName"> 1.북미서버 사용자 포럼에서 주로 불려지는 이름 </label> <input type="text" name="nickName" />
+            </article>
+            <article>
+                <span class="articleHeader">2. 소유한 배틀태그를 입력해주세요 - 가장 티어가 높은 태그순</span>
+                <ul>
+                    <li>
+                        <label for="battleTag1" class="article50p">배틀태그1 :</label>
+                        <input type="text" name="battleTag1" class="article50p" />
+                    </li>                    
+                    <li>
+                        <label for="battleTag2" class="article50p">배틀태그2 :</label>
+                        <input type="text" name="battleTag2" class="article50p" />
+                    </li>                    
+                    <li>
+                        <label for="battleTag3" class="article50p">배틀태그3 :</label>
+                        <input type="text" name="battleTag3" class="article50p" />
+                    </li>
+                    <li>
+                        <label for="battleTag4" class="article50p">배틀태그4 :</label>
+                        <input type="text" name="battleTag4" class="article50p" />
+                    </li>
+                </ul>
+                
+            </article>
+
+            <article>
+                
+                <label for="maxForLastSeason" class="article70p">3. 지난시즌 경쟁전 최고 점수 :</label> <input type="text" name="maxForLastSeason" class="article20p" />
+            </article>
+            <article>
+                <label for="maxForThisSeason"  class="article70p" >4. 현재시즌 경쟁전 최고 점수 :</label> <input type="text" name="maxForThisSeason"  class="article20p" />
+            </article>
+            <article>
+                <ul>
+                    <li><label for="champ1" class="article70p">5-1. 가장 많이 하는 챔프 1:</label> <input type="text" name="champ1" class="article20p" /></li>
+                    <li><label for="champ2" class="article70p">5-2. 가장 많이 하는 챔프 2:</label> <input type="text" name="champ2" class="article20p" /></li>
+                    <li><label for="champ3" class="article70p">5-3. 가장 많이 하는 챔프 3:</label> <input type="text" name="champ3" class="article20p" /></li>
+                </ul>
+            </article>
+            <article>
+                <ul>
+                    <li><label for="champ1" class="article70p">6-1. 접속지역:</label> <input type="text" name="area" class="article20p"/></li>
+                    <li><label for="time1" class="article70p">6-2. 접속시간대1:</label> <input type="time" name="time1" class="article20p"/></li>
+                    <li><label for="time2" class="article70p">6-3. 접속시간대2:</label> <input type="time" name="time2" class="article20p"/></li>
+                    <li><label for="time3" class="article70p">6-4. 접속시간대3:</label> <input type="time" name="time3" class="article20p"/></li>
+                </ul>                
+            </article>
+            <article>
+                <label for="champ1"  class="article70p">7. 마이크 사용:</label> <input type="checkbox" name="useMic"  class="article20p"/>
+            </article>
+            <article>
+                
+                <label for="champ1" class="article70p">8-1. 디스코드 태그(옵션):</label> <input type="text" name="discordTag"  class="article20p"/>
+                <label for="champ1" class="article70p">8-2. 이메일(상품수령및 연락용):</label> <input type="email" name="myemail"  class="article20p"/>
+            </article>
+
+
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</div>
