@@ -8,6 +8,8 @@ using D.Net.Reflect;
 using D.Net.Collection;
 using System.Runtime.CompilerServices;
 
+//test
+
 namespace D.Net
 {
     public class Factory<T> : DNetBaseObject
