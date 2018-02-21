@@ -8,7 +8,7 @@ using D.Net.Reflect;
 using D.Net.Collection;
 using System.Runtime.CompilerServices;
 
-Is it?
+//Is it?
 //test
 //TEST2
 
