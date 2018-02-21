@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -8,6 +8,7 @@ using D.Net.Reflect;
 using D.Net.Collection;
 using System.Runtime.CompilerServices;
 
+Is it?
 //test
 //TEST2
 
