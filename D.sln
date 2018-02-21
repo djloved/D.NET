@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D.Net", "D.Net\D.Net.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D.Net.DB", "D.Net.DB\D.Net.DB.csproj", "{8E0EF9E4-36A9-46FE-9F88-901EFA4715B9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{A8182EC4-C135-4ACE-ACE6-9CA3EE7E86BA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
